@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
 }
 
 /* TopBar // Section 1 */
@@ -118,6 +119,7 @@
     border-radius: 25px;
     border: #892de1 1px solid;
     padding: 5px 10px 5px 10px;
+    margin:5px;
 }
 
 .CategoriesBar p:hover {
