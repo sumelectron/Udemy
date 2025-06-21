@@ -1,0 +1,363 @@
+/* Initiatlization */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Font - Poppins 
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*/
+
+/* Font - PT Sans
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+.TopBar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* TopBar // Section 1 */
+.TopBar__Section1 {
+    font-size: 25px;
+    color: #892de1;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 20px;
+    align-content: center;
+
+}
+
+/* TopBar // Section 2 */
+.TopBar__Section2 {
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 1px black solid;
+    border-radius: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    height: 30px;
+
+}
+
+/* TopBar // Section 2 // Input */
+.TopBar__Section2 input{
+    font-size: 15px;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right:10px;
+    border: none;
+}
+
+.TopBar__Section2 input:focus{
+    font-size: 15px;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right:10px;
+    outline: none;
+}
+
+/* TopBar // Section 3 */
+.TopBar__Section3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* TopBar // Section 3 // Paragraph */
+.TopBar__Section3 p {
+    font-size: 15px;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/* Categories Bar */
+.CategoriesBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+/* Categories Bar // Paragraph */
+.CategoriesBar p {
+    font-family: "PT Sans", sans-serif;
+    font: 20px;
+    font-style: normal;
+    color: white;
+    background-color: #892de1;
+    border-radius: 25px;
+    border: #892de1 1px solid;
+    padding: 5px 10px 5px 10px;
+}
+
+.CategoriesBar p:hover {
+    font-family: "PT Sans", sans-serif;
+    font: 20px;
+    font-style: normal;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    border: black 1px solid;
+    padding: 5px 10px 5px 10px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/* Sale Section */
+.SaleSection img {
+    width: 100%;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/* MostPopular */
+/* Recommended */
+
+/* MostPopular // Section 1 */
+/* Recommended // Section 1 */
+.MostPopular__Section1,
+.Recommendation__Section1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* Top Picks // Section 1 // Line 1 */
+/* Recommended // Section 1 // Line 1 */
+.MostPopular__Section1__Line1,
+.Recommendation__Section1__Line1 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* Top Picks // Section 1 // Line 2 */
+/* Recommended // Section 1 // Line 2 */
+.MostPopular__Section1__Line2,
+.Recommendation__Section1__Line2 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+/* MostPopular // Section 2 */
+/* Recommended // Section 2 */
+.MostPopular__Section2,
+.Recommendation__Section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+
+}
+
+/* MostPopular // Section 2 // Heading 2*/
+/* Recommended // Section 2 // Heading 2*/
+.MostPopular__Section2 h2,
+.Recommendation__Section2 h2 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+}
+
+/* MostPopular // Section 2 // Paragraph*/
+/* Recommended // Section 2 // Paragraph*/
+.MostPopular__Section2 p,
+.Recommendation__Section2 p {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+/* MostPopular // Section 2 // Images*/
+/* Recommended // Section 2 // Images*/
+.MostPopular__Section2 img,
+.Recommendation__Section2 img {
+    width: 100%;
+    height: 180px;
+}
+
+/* MostPopular // Section 2 // Containers */
+.MostPopular__Section2__Container1,
+.MostPopular__Section2__Container2,
+.MostPopular__Section2__Container3,
+.MostPopular__Section2__Container4,
+.MostPopular__Section2__Container5,
+.MostPopular__Section2__Container6,
+.MostPopular__Section2__Container7,
+.MostPopular__Section2__Container8 {
+    width: 250px;
+    justify-content: space-between;
+}
+
+/* Recommended // Section 2 // Containers */
+.Recommendation__Section2__Container1,
+.Recommendation__Section2__Container2,
+.Recommendation__Section2__Container3,
+.Recommendation__Section2__Container4 {
+    width: 250px;
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+/* TopPicks */
+.TopicsRecommended {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px
+}
+
+.TopicsRecommended_Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Topics Recommended // Heading 2 */
+.TopicsRecommended h2 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.TopicsRecommended p {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    border: black 2px solid;
+    padding: 10px;
+    width: 120px;
+    justify-content: space-around;
+}
+
+.TopicsRecommended p:hover {
+    color: black;
+    background-color: gray;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    border: black 2px solid;
+    padding: 10px;
+    width: 120px;
+    justify-content: space-around;
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+
+/* Footer */
+.Footer {
+    background-color: black;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+/* Footer // Section 1 */
+.Footer__Section1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Footer // Section 1 // SubSection 1 */
+.Footer__Section1__SubSection1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+    gap: 5px;
+
+}
+
+/* Footer // Section 1 // SubSection 2 */
+.Footer__Section1__SubSection2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 150px;
+    gap: 5px;
+
+}
+
+
+/* Footer // Section 2 */
+.Footer__Section2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+/* Footer // Section 2 // SubSection 1 */
+.Footer__Section2__SubSection1 {
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Footer // Section 2 // SubSection 2 */
+.Footer__Section2__SubSection2 {
+    font-size: 12px;
+    color: whitesmoke;
+    font-style: normal;
+    padding-top: 12px;
+}
