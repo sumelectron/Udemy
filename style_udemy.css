@@ -28,6 +28,10 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
 }
 
 /* TopBar // Section 1 */
@@ -53,32 +57,44 @@
     flex-direction: row;
     align-content: center;
     align-items: center;
-    height: 30px;
+    height: 60px;
 
+}
+
+.TopBar__Section2__SubSection2 {
+    width: 95%;
+    border-color: white 1px solid;
+    outline: none;
 }
 
 /* TopBar // Section 2 // Input */
-.TopBar__Section2 input{
+.TopBar__Section2__SubSection2 input {
     font-size: 15px;
     color: black;
     font-family: "PT Sans", sans-serif;
     font-weight: 100;
     font-style: normal;
     margin-left: 10px;
-    margin-right:10px;
+    margin-right: 20px;
+    background-color: transparent;
     border: none;
+    width: 100%;
 }
 
-.TopBar__Section2 input:focus{
+.TopBar__Section2__SubSection2 input:focus {
     font-size: 15px;
     color: black;
     font-family: "PT Sans", sans-serif;
     font-weight: 100;
     font-style: normal;
     margin-left: 10px;
-    margin-right:10px;
+    margin-right: 30px;
+    width: 100%;
     outline: none;
+    background-color: transparent;
+
 }
+
 
 /* TopBar // Section 3 */
 .TopBar__Section3 {
@@ -87,6 +103,7 @@
     gap: 20px;
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 /* TopBar // Section 3 // Paragraph */
@@ -96,6 +113,29 @@
     font-family: "PT Sans", sans-serif;
     font-weight: 100;
     font-style: normal;
+}
+
+
+.TopBar__Section3__MyLearning {
+    position: relative;
+    cursor: pointer;
+}
+
+.TopBar__Section3__MyLearning__Popup {
+    position: absolute;
+    top: 150%;
+    right: 0;
+    border: 1px solid black;
+    visibility: hidden;
+    background-color: white;
+    z-index: 1;
+}
+
+.TopBar__Section3__MyLearning:hover {
+    .TopBar__Section3__MyLearning__Popup {
+        visibility: visible;
+    }
+
 }
 
 /*---------------------------------------------------------------------------------------*/
@@ -119,7 +159,7 @@
     border-radius: 25px;
     border: #892de1 1px solid;
     padding: 5px 10px 5px 10px;
-    margin:5px;
+    margin: 5px;
 }
 
 .CategoriesBar p:hover {
@@ -135,8 +175,32 @@
 
 /*---------------------------------------------------------------------------------------*/
 /* Sale Section */
+.SaleSection {
+    position: relative;
+}
+
+/* Sale Section // Image */
 .SaleSection img {
     width: 100%;
+}
+
+/* Sale Section // Offerbox */
+.SaleSection__Offerbox {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font: 20px;
+    font-style: normal;
+    display: inline-block;
+    width: 250px;
+    text-wrap: wrap;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    padding: 2%;
 }
 
 /*---------------------------------------------------------------------------------------*/
